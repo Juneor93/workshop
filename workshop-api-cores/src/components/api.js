@@ -26,7 +26,7 @@ class Api extends React.Component {
         }
         return (
             <div>
-            <div></div>
+                <div className="lateral"></div>
             {content}
             </div>
         );
