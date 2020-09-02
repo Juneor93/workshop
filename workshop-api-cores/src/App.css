@@ -101,6 +101,7 @@
 
 .rodape h2{
   font-size: 28px;
+  font-family: "Ribeye Marrow", cursive;
 }
 
 .rodape ul{
@@ -111,6 +112,7 @@
 .rodape ul li {
   font-weight: bold;
   font-size: 18px;
+  font-family: "Ribeye Marrow", cursive;
   display: inline-block;
 }
 
