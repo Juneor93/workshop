@@ -9,7 +9,7 @@ const Footer = () => (
         <li><a href="https://github.com/RachMor">Raquel Moreira</a></li>
         <li><a href="https://github.com/Juneor93">Artur Nishiuchi</a></li>
         <li><a href="https://github.com/Mmotta18">Matheus Motta</a></li>
-        <li><a href="https://github.com/leoorodr">Leonardo</a></li>
+        <li><a href="https://github.com/leoorodr">Leonardo Rodrigues</a></li>
         <li><a href="https://github.com/rosana-araujo">Rosana Araújo</a></li>
         </ul>
     </footer>

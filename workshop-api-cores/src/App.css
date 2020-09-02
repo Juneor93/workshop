@@ -1,12 +1,13 @@
 
 *{
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   line-height: 66px;
 }
 
 .head{
-  width:100vw;
+  width:100%;
   height: 100px;
   background-color: #0D0D0D;
 }
@@ -21,21 +22,30 @@
 
 .head img[src]{
   position: absolute;
-  width:60px ;
+  width:60px;
   height:60px;
   left: 40px;
   top: 20px;
 }
 
-.container{
-  position: relative;
-  background-color: #FFFFFF;
-  min-height: 100vh;
-  width: 96vw;
+.conteudo{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-end;
+  background-color: #0D0D0D;
+  width: 100%;
+  padding: left 20px;;
+
+}
+
+.container{
+  width: 98%;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -52,21 +62,14 @@
  text-align: center;
 }
 
-.lateral{
-  position: relative;
-  background-color: #0D0D0D;
-  width: 20px;
-  height: 780px;
-	float: left;
-}
-
 .rodape{
   display: flex;
   flex-direction:column;
   align-items: center;
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 140px;
+  margin-bottom: 0;
   color:#FFFFFF;
   background-color: #0D0D0D;
 }
@@ -75,75 +78,86 @@
   font-size: 28px;
 }
 
-.rodape ul li {
+.rodape ul{
   display: flex;
+  justify-content: space-evenly;
+}
+
+.rodape ul li {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
 }
 
 li a {
-  display: block;
   color: white;
   text-align: center;
-  padding: 2px 26px;
+  padding: 20px;
   text-decoration: none;
 }
 
 
-@media screen and (min-width: 360px) and (max-width: 540px){
-    .lateral {
-      height: 2100px;
-    }
-    .rodape {
-      height: 550px;
-    }
-    .rodape h2 {
-      text-align: center;
-    }
-}
-
-@media screen and (min-width: 541px) and (max-width: 779px) {
-  .lateral {
-    width: 3vh;
-    height: 1550px;
-  }
-  .rodape {
-    height: 500px;
-  }
-  .rodape h2 {
-    text-align: center;
-  }
-}
-
-@media screen and (min-width: 780px) and (max-width: 938px) {
-  .lateral {
-    width: 3vh;
-    height: 1250px;
-  }
-  .rodape {
-    height: 500px;
-  }
-  .rodape h2 {
-    text-align: center;
-  }
-  .rodape ul li {
-    display: inline;
-  }
-}
-
-@media screen and (min-width: 939px) and (max-width: 1090px) {
-  .lateral {
-    width: 3vh;
-    height: 1140px;
-  }
-  .rodape {
-    height: 500px;
+@media screen and (max-width: 660px){
+  
+  .head h1{
+    font-size:28px;
   }
 
-  .rodape h2 {
-    text-align: center;
+  .container{
+    justify-content: center;
   }
-  .li a {
-    display: inline;
+
+  .rodape{
+    height: 230px;
   }
+  .rodape h2{
+    font-size:14px;
+  }
+
+  .rodape ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .rodape ul li{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
 }
+
+@media screen and (min-width: 661px) and (max-width: 1210px) {
+  .container{
+    justify-content: center;
+  }
+
+  .rodape h2{
+    font-size:24px;
+  }
+
+  .rodape ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .rodape ul li{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  li a{
+   padding: 10px;
+  }
+  }
+
 
 
