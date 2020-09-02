@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
   margin: 0;
@@ -18,6 +19,7 @@
   margin-left:110px;
   margin-top: 17px;
   font-size:38px;
+  font-family: "Ribeye Marrow", cursive;
 }
 
 .head img[src]{
@@ -76,6 +78,7 @@
 
 .rodape h2{
   font-size: 28px;
+  font-family: "Ribeye Marrow", cursive;
 }
 
 .rodape ul{
@@ -86,6 +89,7 @@
 .rodape ul li {
   font-weight: bold;
   font-size: 18px;
+  font-family: "Ribeye Marrow", cursive;
   display: inline-block;
 }
 
