@@ -30,7 +30,24 @@
   top: 20px;
 }
 
+.pesquisar{
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 20px;
+  display: flex;
+
+}
+
+.pesquisar input{
+  height: 40px;
+  outline-style: none;
+  width: 300px;
+}
+
+
 .conteudo{
+  min-height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,6 +60,7 @@
 
 .container{
   width: 98%;
+  min-height: 70vh;
   background-color: #FFFFFF;
   padding: 10px 0px 10px 10px ;
   display: flex;
@@ -51,6 +69,7 @@
 }
 
 .container div{
+ box-shadow: 0 10px 8px -8px #d3d3d3;
  border: solid 1px #D3D3D3 ;
  border-radius: 3%;
  width: 120px;
