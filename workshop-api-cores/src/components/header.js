@@ -6,9 +6,12 @@ const Header = () =>(
     <header className = "head">
         <img src= {img} alt="logo"></img>
         <h1> Paleta de Cores</h1>
+<<<<<<< HEAD
         <form className="pesquisar">
             <input type="text" placeholder="Pesquise uma cor aqui..." id="pesq"></input>
         </form>
+=======
+>>>>>>> master
     </header>
 );
 
