@@ -6,11 +6,7 @@ class Api extends React.Component {
     };
   
     componentDidMount() {
-<<<<<<< HEAD
         fetch('http://www.colr.org/json/colors/random/65')
-=======
-        fetch('http://www.colr.org/json/colors/random/60')
->>>>>>> master
             .then(res => res.json())
             .then(res => {
                 const paleta = res.colors.map((item) => item.hex).filter( (item) => item) 
@@ -29,11 +25,7 @@ class Api extends React.Component {
                 </div>)
         }
         return (
-<<<<<<< HEAD
             <div  className="conteudo">
-=======
-            <div>
->>>>>>> master
                 <div className="lateral"></div>
             {content}
             </div>

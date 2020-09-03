@@ -1,14 +1,7 @@
-<<<<<<< HEAD
 body, .App {
   margin: 0;
   min-height: 100%;
   min-width: 100%;
-=======
-body {
-  margin: 0;
-  min-height: 100vh;
-  min-width: 100vw;
->>>>>>> master
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
