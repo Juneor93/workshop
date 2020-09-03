@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   line-height: 66px;
+  font-family: "Ribeye Marrow", cursive;
 }
 
 .head{
@@ -30,7 +31,24 @@
   top: 20px;
 }
 
+.pesquisar{
+  position: relative;
+  float: right;
+  top: 20px;
+  right: 20px;
+  display: flex;
+
+}
+
+.pesquisar input{
+  height: 40px;
+  outline-style: none;
+  width: 300px;
+}
+
+
 .conteudo{
+  min-height: 70vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,25 +61,30 @@
 
 .container{
   width: 98%;
+  min-height: 70vh;
   background-color: #FFFFFF;
+  padding: 10px 0px 10px 10px ;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
 .container div{
- box-shadow: 1px 1px 1px gray ;
+ box-shadow: 0 10px 8px -8px #d3d3d3;
+ border: solid 1px #D3D3D3 ;
+ border-radius: 3%;
  width: 120px;
  height: 100px;
  margin: 5px;
 }
 
 .container div p{
+  letter-spacing: 2px;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
   padding-top: 18px;
+  font-size:18px;
   font-weight: bolder;
- text-align: center;
+  text-align: center;
 }
 
 .rodape{
@@ -78,7 +101,6 @@
 
 .rodape h2{
   font-size: 28px;
-  font-family: "Ribeye Marrow", cursive;
 }
 
 .rodape ul{
@@ -89,7 +111,6 @@
 .rodape ul li {
   font-weight: bold;
   font-size: 18px;
-  font-family: "Ribeye Marrow", cursive;
   display: inline-block;
 }
 
@@ -100,19 +121,45 @@ li a {
   text-decoration: none;
 }
 
+@media screen and (min-width: 661px) and (max-width: 1210px) {
+  .container{
+    justify-content: center;
+  }
 
-@media screen and (max-width: 660px){
+  .rodape h2{
+    font-size:24px;
+  }
+
+  .rodape ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+  }
+
+  .rodape ul li{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+  li a{
+   padding: 10px;
+  }
+  }
+
+@media screen and (max-width: 880px){
   
   .head h1{
     font-size:28px;
   }
 
   .container{
-    justify-content: center;
+    padding: 20px 0px 20px 40px;
   }
-
   .rodape{
-    height: 230px;
+    height: 270px;
   }
   .rodape h2{
     font-size:14px;
@@ -135,10 +182,7 @@ li a {
 
 }
 
-@media screen and (min-width: 661px) and (max-width: 1210px) {
-  .container{
-    justify-content: center;
-  }
+@media screen and (min-width: 890px) and (max-width: 1210px) {
 
   .rodape h2{
     font-size:24px;
