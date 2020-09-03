@@ -9,7 +9,11 @@ const Footer = () => (
         <li><a href="https://github.com/RachMor">Raquel Moreira</a></li>
         <li><a href="https://github.com/Juneor93">Artur Nishiuchi</a></li>
         <li><a href="https://github.com/Mmotta18">Matheus Motta</a></li>
+<<<<<<< HEAD
         <li><a href="https://github.com/leoorodr">Leonardo Rodrigues</a></li>
+=======
+        <li><a href="https://github.com/leoorodr">Leonardo</a></li>
+>>>>>>> b39f262... mechendo na responsividade do site
         <li><a href="https://github.com/rosana-araujo">Rosana Araújo</a></li>
         </ul>
     </footer>
